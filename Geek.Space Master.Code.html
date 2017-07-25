@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Geek.Space</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        body {
+            position: relative;
+        }
+        #Home {padding-top: 50px;height:640px;color: #fff; background-color: black}
+        #Anime {padding-top: 50px;height:600px;color: #fff; background-image: url('C:\Users\Ignell Draksen\Pictures\83783.jpg') }
+        #Mangá {padding-top: 50px;height:600px;color: #fff; background-color: #673ab7;}
+        #Game {padding-top: 50px;height:600px;color: #fff; background-color: #ff9800;}
+        #Music {padding-top: 50px;height:600px;color: #fff; background-color: #00bcd4;}
+        #Movie {padding-top: 50px;height:600px;color: #fff; background-color: #009688;}
+        #Series {padding-top: 50px;height:600px;color: #fff; background-color: lawngreen;}
+    </style>
+    <h1>Geek Space</h1>
+    <head>
+
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+        <h2 style="color: #1E88E5">A place for the Heads-off-this-World!</h2>
+        <p>
+        <p>
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#Home">Geek Space</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="#Anime">Anime</a></li>
+                <li><a href="#Mangá">Mangá</a></li>
+                <li><a href="#Game">Game</a></li>
+                <li><a href="#Music">Music</a></li>
+                <li><a href="#Movie">Movie</a></li>
+                <li><a href="#Series">Series</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div id="Home" class="container-fluid">
+        <div class="row">
+            <div class="col-md-10" style="padding-top: 220px">
+                <blockquote>Um site/blog com contéudos "geek" tais como anime, mangá, games, onde as pessoas
+                    podem aceder a contéudos relacionados a estes, falar com outras pessoas do site com mesmos gostos,
+                    participar em fóruns,etc. Para além destes conteúdos pretende-se adicionar também outros como música,
+                    filmes, séries, e ainda engenharia, de modo a aumentar a diversidade do site e o público alvo.
+                    Queremos criar um site, um espaço onde pessoas de interreses diferentes podem encontrar e divertir.
+                    <footer style="text-align: right;">Officer</footer>
+                </blockquote>
+            </div>
+            <div class="col-md-2" style="background-color: darkred; color: black; background-position: center left">
+                <p style="text-align: left"><h3>Destaques!</h3></p>
+                <p style="padding-top: 419px; padding-right: 135px; text-align:right;">Programmers:</p>
+                <p style="padding-right: 20px; text-align:right;">AfricanGrimReaper - Programer</p>
+                <p style="padding-right: 50px; text-align:right;">IgneelDraksen - Programer</p>
+                <p style="padding-right: 53px; text-align:right;">LangOrigin - WebDesigner</p>
+            </div>
+        </div>
+    </div>
+<div id="Anime" class="container-fluid">
+
+</div>
+<div id="Mangá" class="container-fluid">
+
+</div>
+<div id="Game" class="container-fluid">
+
+</div>
+<div id="Music" class="container-fluid">
+
+</div>
+<div id="Movie" class="container-fluid">
+
+</div>
+<div id="Series" class="container-fluid">
+
+</div>
+
+<script>
+    $(document).ready(function(){
+        // Add scrollspy to <body>
+        $('body').scrollspy({target: ".navbar", offset: {top:1});
+
+        // Add smooth scrolling on all links inside the navbar
+        $("#myNavbar a").on('click', function(event) {
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+                // Prevent default anchor click behavior
+                event.preventDefault();
+
+                // Store hash
+                var hash = this.hash;
+
+                // Using jQuery's animate() method to add smooth page scroll
+                // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 800, function(){
+
+                    // Add hash (#) to URL when done scrolling (default click behavior)
+                    window.location.hash = hash;
+                });
+            }  // End if
+        });
+    });
+</script>
+
+</body>
+
+</html>
