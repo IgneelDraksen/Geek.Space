@@ -12,18 +12,16 @@
         body {
             position: relative;
         }
-        #Home {padding-top: 50px;height:640px;color: #fff; background-color: black}
-        #Anime {padding-top: 50px;height:600px;color: #fff; background-image: url('C:\Users\Ignell Draksen\Pictures\83783.jpg') }
+        #Home {padding-top: 120px;height:710px;color: #fff; background-color: black; }
+        #Anime {padding-top: 50px;height:600px;color: #fff; background-color: dimgrey; }
         #Mangá {padding-top: 50px;height:600px;color: #fff; background-color: #673ab7;}
         #Game {padding-top: 50px;height:600px;color: #fff; background-color: #ff9800;}
         #Music {padding-top: 50px;height:600px;color: #fff; background-color: #00bcd4;}
-        #Movie {padding-top: 50px;height:600px;color: #fff; background-color: #009688;}
+        #Movies {padding-top: 50px; height:600px;color: #fff; background-color: #009688;}
         #Series {padding-top: 50px;height:600px;color: #fff; background-color: lawngreen;}
     </style>
-    <h1>Geek Space</h1>
     <head>
-
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="125">
 <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
         <h2 style="color: #1E88E5">A place for the Heads-off-this-World!</h2>
@@ -32,8 +30,10 @@
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                 <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#Home">Geek Space</a>
+            <a class="navbar-brand" href="#Home">Geek.Space</a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav">
@@ -41,55 +41,115 @@
                 <li><a href="#Mangá">Mangá</a></li>
                 <li><a href="#Game">Game</a></li>
                 <li><a href="#Music">Music</a></li>
-                <li><a href="#Movie">Movie</a></li>
+                <li><a href="#Movies">Movie</a></li>
                 <li><a href="#Series">Series</a></li>
+                <li class="dropdown">
+                    <a class="dropdown-toogle" data-toggle="dropdown">About <span class="caret"></span></a>
+                    <ul class="dropdown-menu navbar-inverse">
+                        <li><a style="color: grey">Contact</a></li>
+                        <li><a style="color: grey">Programmers</a></li>
+                        <li><a style="color: grey">Profiles</a></li>
+                    </ul>
+                </li>
             </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            </ul>
+            <form class="navbar-form navbar-right">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search" >
+                    <div class="input-group-btn">
+                        <button class="btn btn-default" type="submit">
+                            <i class="glyphicon glyphicon-search"></i>
+                        </button>
+                    </div>
+                </div>
+            </form>
         </div>
     </div>
 </nav>
-<div id="Home" class="container-fluid">
+<div id="Home" class="container-fluid" style="background-image: url('https://s-media-cache-ak0.pinimg.com/originals/c7/e3/fa/c7e3fab035b35940ef1e8d1f28ebae15.jpg'); background-size: cover; background-repeat: no-repeat">
         <div class="row">
-            <div class="col-md-10" style="padding-top: 220px">
-                <blockquote>Um site/blog com contéudos "geek" tais como anime, mangá, games, onde as pessoas
+            <div class="col-md-10" style="padding-top: 370px; color:white">
+                <blockquote><b>Um site/blog com contéudos "geek" tais como anime, mangá, games, onde as pessoas
                     podem aceder a contéudos relacionados a estes, falar com outras pessoas do site com mesmos gostos,
                     participar em fóruns,etc. Para além destes conteúdos pretende-se adicionar também outros como música,
                     filmes, séries, e ainda engenharia, de modo a aumentar a diversidade do site e o público alvo.
-                    Queremos criar um site, um espaço onde pessoas de interreses diferentes podem encontrar e divertir.
+                    Queremos criar um site, um espaço onde pessoas de interreses diferentes podem encontrar e divertir.</b>
                     <footer style="text-align: right;">Officer</footer>
                 </blockquote>
             </div>
-            <div class="col-md-2" style="background-color: darkred; color: black; background-position: center left">
-                <p style="text-align: left"><h3>Destaques!</h3></p>
-                <p style="padding-top: 419px; padding-right: 135px; text-align:right;">Programmers:</p>
-                <p style="padding-right: 20px; text-align:right;">AfricanGrimReaper - Programer</p>
-                <p style="padding-right: 50px; text-align:right;">IgneelDraksen - Programer</p>
-                <p style="padding-right: 53px; text-align:right;">LangOrigin - WebDesigner</p>
+            <div class="col-md-2" style="background-image: url('http://diariomovil.com.ar/wp-content/uploads/2014/12/matrix.jpg'); background-size: cover; background-repeat: no-repeat">
+                <p style="padding-top: 500px; color: deepskyblue; text-align:left"><b>AfricanGrimReaper</b></p>
+                <p style="color: deepskyblue; text-align:left"><b>IgneelDraksen</b></p>
+                <p style="color: deepskyblue; text-align:left"><b>LangOrigin</b></p>
             </div>
         </div>
     </div>
-<div id="Anime" class="container-fluid">
-
+<div id="Anime" class="container-fluid" style="background-image: url('http://s1.picswalls.com/wallpapers/2015/09/20/anime-wallpaper-hd_061546778_272.png'); background-size: cover; background-repeat: no-repeat">
+    <div class="row">
+        <div class="col-md-10" style="padding-top: 120px; color: black">
+            <blockquote>Mesmo se esquecermos os rostos dos nossos amigos, não esqueceremos os laços que foram cravados nas nossas almas
+                <footer style="text-align: left;">Otanashi - Angel Beats</footer>
+            </blockquote>
+        </div>
+    </div>
 </div>
-<div id="Mangá" class="container-fluid">
-
+<div id="Mangá" class="container-fluid" style="background-image: url('http://img1.ak.crunchyroll.com/i/spire2/b6d563f3c357713a5cbb1e3b0e3a5c021345260152_full.jpg'); background-size: cover; background-repeat: no-repeat">
+    <div class="row">
+        <div class="col-md-10" style="padding-top: 350px; color: black">
+            <blockquote>Nada evouí engaiolado.<br>
+                Abra um livro e sua cabeça,<br>
+                Liberte suas ideias<br>
+                E deixe o Mundo imaginário entrar.
+                <footer style="text-align: left; padding-left: 250px">G. Lacambe</footer>
+            </blockquote>
+        </div>
+    </div>
 </div>
-<div id="Game" class="container-fluid">
-
+<div id="Game" class="container-fluid" style="background-image: url('https://s-media-cache-ak0.pinimg.com/originals/c6/b6/c4/c6b6c49366bac4a2e2478038fb88949b.jpg'); background-size: cover; background-repeat: no-repeat">
+    <div class="row">
+        <div class="col-md-10" style="padding-top: 100px; color: black">
+            <blockquote><h4>You start to forget the things you should remenber.<br>
+                And can't stop to remember the things you should forget.</h4>
+                <footer style="text-align: left; padding-left: 450px">Ghost</footer>
+            </blockquote>
+        </div>
+    </div>
 </div>
-<div id="Music" class="container-fluid">
-
+<div id="Music" class="container-fluid" style="background-image: url('https://i.ytimg.com/vi/zNQw3FEmt-U/maxresdefault.jpg'); background-size: cover; background-repeat: no-repeat">
+    <div class="row">
+        <div class="col-md-10" style="padding-top: 220px; color: white">
+            <blockquote>A música diz tudo aquilo que não pode ser dito em palavra.<br>
+                Mas não pode permanecer no silêncio.
+                <footer style="text-align: left; padding-left: 300px">Victor Hugo</footer>
+            </blockquote>
+        </div>
+    </div>
 </div>
-<div id="Movie" class="container-fluid">
-
+<div id="Movies" class="container-fluid" style="background-image: url('http://wallpapercave.com/wp/DqY6yJ3.jpg'); background-size: cover; background-repeat: no-repeat">
+    <div class="row">
+        <div class="col-md-10" style="padding-top: 400px; color: black">
+            <blockquote  style="text-align: center; padding-right: 450px">Every hero is the villain of his own story.<footer style="padding-left: 100px;color: black">B. Wayne</footer>
+            </blockquote>
+        </div>
+    </div>
 </div>
-<div id="Series" class="container-fluid">
-
+<div id="Series" class="container-fluid" style="background-image: url('http://hddesktopwallpaper.org/wp-content/uploads/2016/11/the-walking-dead-desktop-wallpaper.jpg'); background-size: cover; background-repeat: no-repeat">
+    <div class="row">
+        <div class="col-md-10" style="padding-top: 220px; color: black">
+            <blockquote>We either die a hero, or we live long enought to become a villain.
+                <footer style="text-align: center; padding-right: 140px">J. Gordon</footer>
+            </blockquote>
+        </div>
+    </div>
 </div>
 
 <script>
     $(document).ready(function(){
         // Add scrollspy to <body>
-        $('body').scrollspy({target: ".navbar", offset: {top:1});
+        $('body').scrollspy({target: ".navbar", offset: 50});
 
         // Add smooth scrolling on all links inside the navbar
         $("#myNavbar a").on('click', function(event) {
@@ -114,6 +174,7 @@
         });
     });
 </script>
+
 
 </body>
 
