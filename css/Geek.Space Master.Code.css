@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-image: url(http://www.themebin.com/wp-content/uploads/hd-wallpapers/1920x1080/Designer__s_Room_2_0_by_K3nzuS.jpg);
+	background-size: contain;
+	background-repeat: repeat-y;
+}
+h2{
+	color: rgba(127,58,12,1.0);
+}
+#pageFooter{
+	height: 500px;
+	color:rgba(35,35,35,1.00);
+	position: fixed;
+}
+body {
+   	position: relative;
+}
+.divisao{
+	height: 180px;
+	background-color: rgba(82,42,16,0.88);
+	width: 100%;
+}
+#Home {
+	padding-top: 120px;
+	height:1020px;
+	color: #fff; 
+	background-image: url(http://girlsgotgame.org/wp-content/uploads/2016/02/geek.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#Anime {
+	padding-top: 50px;
+	height:600px;
+	color: #fff; 
+	background-color: dimgrey;
+}
+#Manga {
+	padding-top: 50px;
+	height:600px;
+	color: #fff; 
+	background-color: #673ab7;
+}
+#Game {
+	padding-top: 50px;
+	height:600px;
+	color: #fff; 
+	background-color: #ff9800;
+}
+#Music {
+	padding-top: 50px;
+	height:600px;
+	color: #fff; 
+	background-color: #00bcd4;}
+#Movies {
+	padding-top: 50px; 
+	height:600px;
+	color: #fff; 
+	background-color: #009688;
+}
+#Series {
+	padding-top: 50px;
+	height:600px;
+	color: #fff; 
+	background-color: lawngreen;
+}
+footer{
+	color: rgba(79,79,79,1.00);
+	text-align: left;
+}
+blockquote{
+	max-width: 980px;
+	text-align: justify;
+}
+.col-md-2{
+	float: right;
+	width: auto;
+	font-size: 20pt;
+	text-align: right;
+	color:rgba(95,46,164,1.00);
+}
+h3{
+	font-size:50pt;
+}
